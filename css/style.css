@@ -1,5 +1,102 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  background-color: #f8f8f8;
+}
+
+body aside {
+  height: 100dvh;
+  width: 300px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1599;
+}
+
+/* Main Style Start */
+body main {
+  min-height: 100dvh;
+  background-color: transparent;
+  padding-left: 320px;
+}
+
+/* Nav Style Start */
+main nav {
+  padding: 10px 10px 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+main nav form {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 30px;
+  width: fit-content;
+  padding: 8px 30px 5px 10px;
+}
+
+main nav form label {
+  font-size: 1.3rem;
+  color: black;
+}
+
+main nav form input {
+  border: none;
+  background-color: transparent;
+}
+
+main nav form input:focus-visible {
+  outline: none;
+  border: none;
+}
+
+nav .info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+main nav .icons a {
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+}
+nav .profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white ;
+    padding: 5px 5px ;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.171);
+    width: fit-content;
+}
+nav .profile span{
+    padding: 0px 20px;
+}
+
+nav .profile .profile_pic {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+nav .profile .profile_pic img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Nav Style end */
+/* Main Style End */
