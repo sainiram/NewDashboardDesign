@@ -278,5 +278,71 @@ nav .profile .profile_pic img {
   background-color: rgb(231, 231, 231);
 }
 /* Count Card Style End */
+/* main table start  */
+main .table_card{
+  padding: 0px 20px;
+  background-color: white;
+  box-shadow: 1px 1px 10px #00000015;
+  border-radius: 10px;
+}
+main .table_card table {
+  border-collapse: collapse;
+  width: 100%;
+}
+main .table_card table th {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  text-align: start;
+  padding: 15px 20px;
+}
+main .table_card table td {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  text-align: start;
+  padding: 15px 20px;
+}
 
+main .table_card table tr {
+  background-color: #fff;
+  border-radius: 20px;
+}
+main .table_card table tr:nth-child(even) {
+  background-color: #ededed;;
+}
+main .table_card table tr td button{
+  padding: 7px 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: white;
+  border: none;
+  text-transform: capitalize;
+}
+main .table_card table tr td .progress{
+  background-color: #39a250;
+    }
+main .table_card table tr td .open{
+  background-color: #ffc40e;
+  color: black;
+}
+main .table_card table tr td .on-hold{
+  background-color: #dd2a3d;
+}
+main .table_card table tr th:first-child{
+  border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+main .table_card table tr th:last-child{
+  border-top-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+main .table_card table tr td:first-child{
+  border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+main .table_card table tr td:last-child{
+  border-top-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* main table end  */
 /* Main Style End */
