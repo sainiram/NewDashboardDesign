@@ -82,7 +82,6 @@
         </label>
         <input type="search" id="search" />
       </form>
-
       <div class="info">
         <div class="icons">
           <a href="#">
@@ -92,11 +91,18 @@
             <i class="ph ph-siren"></i>
           </a>
         </div>
-        <div class="profile">
+        <div class="profile dropdown">
           <span>Aryan Saini</span>
           <div class="profile_pic">
             <img src="./images/user.jpg" alt="" />
           </div>
+
+          <ul class="dropmenu" style="max-height: 250px;">
+            <li>Setting</li>
+            <li>Edit</li>
+            <li>Logout</li>
+          </ul>
+
         </div>
       </div>
     </nav>
@@ -108,7 +114,7 @@
           <div class="dropdown">
             <i class="ph-duotone ph-dots-three-outline"></i>
 
-            <ul class="dropmenu">
+            <ul class="dropmenu" style="--dropHeight: 110px;">
               <li>Edit</li>
               <li>Delete</li>
             </ul>
@@ -123,7 +129,7 @@
           <div class="dropdown">
             <i class="ph-duotone ph-dots-three-outline"></i>
 
-            <ul class="dropmenu">
+            <ul class="dropmenu" style="--dropHeight: 110px;">
               <li>Edit</li>
               <li>Delete</li>
             </ul>
@@ -138,7 +144,7 @@
           <div class="dropdown">
             <i class="ph-duotone ph-dots-three-outline"></i>
 
-            <ul class="dropmenu">
+            <ul class="dropmenu" style="--dropHeight: 110px;">
               <li>Edit</li>
               <li>Delete</li>
             </ul>
@@ -153,7 +159,7 @@
           <div class="dropdown">
             <i class="ph-duotone ph-dots-three-outline"></i>
 
-            <ul class="dropmenu">
+            <ul class="dropmenu" style="--dropHeight: 110px;">
               <li>Edit</li>
               <li>Delete</li>
             </ul>
@@ -179,7 +185,7 @@
           <td>Japan</td>
           <td>$3000</td>
           <td>$1200</td>
-          <td><button class="progress">Progress</button></td>
+          <td><button style="--btncolor: #39a250">Progress</button></td>
         </tr>
         <tr>
           <td>1001</td>
@@ -187,7 +193,7 @@
           <td>Japan</td>
           <td>$3000</td>
           <td>$1200</td>
-          <td><button class="open">Open</button></td>
+          <td><button style="--btncolor: #ffc40e">Open</button></td>
         </tr>
         <tr>
           <td>1001</td>
@@ -195,7 +201,7 @@
           <td>Japan</td>
           <td>$3000</td>
           <td>$1200</td>
-          <td><button class="on-hold">on hold</button></td>
+          <td><button style="--btncolor: #dd2a3d">on hold</button></td>
         </tr>
         <tr>
           <td>1001</td>
@@ -203,7 +209,7 @@
           <td>Japan</td>
           <td>$3000</td>
           <td>$1200</td>
-          <td><button class="progress">Progress</button></td>
+          <td><button style="--btncolor: #39a250">Progress</button></td>
         </tr>
         <tr>
           <td>1001</td>
@@ -211,7 +217,7 @@
           <td>Japan</td>
           <td>$3000</td>
           <td>$1200</td>
-          <td><button class="on-hold">on hold</button></td>
+          <td><button style="--btncolor: #dd2a3d">on hold</button></td>
         </tr>
         <tr>
           <td>1001</td>
@@ -219,7 +225,7 @@
           <td>Japan</td>
           <td>$3000</td>
           <td>$1200</td>
-          <td><button class="open">Open</button></td>
+          <td><button style="--btncolor: #ffc40e">Open</button></td>
         </tr>
         <tr>
           <td>1001</td>
@@ -227,7 +233,7 @@
           <td>Japan</td>
           <td>$3000</td>
           <td>$1200</td>
-          <td><button class="open">Open</button></td>
+          <td><button style="--btncolor: #ffc40e">Open</button></td>
         </tr>
         <tr>
           <td>1001</td>
@@ -235,7 +241,7 @@
           <td>Japan</td>
           <td>$3000</td>
           <td>$1200</td>
-          <td><button class="progress">Progress</button></td>
+          <td><button style="--btncolor: #39a250">Progress</button></td>
         </tr>
       </table>
     </div>
@@ -249,12 +255,9 @@
       </div>
     </div>
 
-    
     <div class="my-md">
       <div id="chartLine"></div>
     </div>
-
-
 
     <!-- Apex chart CDN Links -->
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>

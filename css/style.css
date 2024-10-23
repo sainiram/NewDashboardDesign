@@ -327,12 +327,12 @@ nav .profile .profile_pic img {
   background-color: #f5de7a;
 }
 
-.countCards .dropdown {
+ .dropdown {
   position: relative;
   z-index: 0;
   cursor: pointer;
 }
-.countCards .dropdown .dropmenu {
+ .dropdown .dropmenu {
   list-style: none;
   background-color: var(--white);
   border-radius: 10px;
@@ -349,15 +349,15 @@ nav .profile .profile_pic img {
 .dropdown:hover .dropmenu {
   height: auto;
   min-height: 70px;
-  max-width: 110px;
+  max-width: var(--dropHeight);
 }
 
-.countCards .dropdown .dropmenu li {
+ .dropdown .dropmenu li {
   padding: 10px 15px;
   transition: all 0.3s;
 }
 
-.countCards .dropdown .dropmenu li:hover {
+ .dropdown .dropmenu li:hover {
   background-color: rgb(231, 231, 231);
 }
 /* Count Card Style End */
@@ -402,16 +402,7 @@ body .table_card table tr td button {
   color: white;
   border: none;
   text-transform: capitalize;
-}
-body .table_card table tr td .progress {
-  background-color: #39a250;
-}
-body .table_card table tr td .open {
-  background-color: #ffc40e;
-  color: black;
-}
-body .table_card table tr td .on-hold {
-  background-color: #dd2a3d;
+  background-color: var(--btncolor);
 }
 body .table_card table tr th:first-child {
   border-top-left-radius: 10px;
